@@ -4,14 +4,14 @@
   "description": "A multiplayer snake game built on NodeJs, Express, socket.io, JavaScript ES6, and jspm.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/simondiep/node-multiplayer-snake.git"
+    "url": "https://github.com/TrentNow/node-multiplayer-snake.git"
   },
   "scripts": {
     "start": "node app.js",
     "pretest": "eslint .",
     "test": "mocha",
     "coverage": "istanbul cover node_modules/mocha/bin/_mocha",
-    "sonar": "node sonar-project.js"
+    "sonar": "/usr/bin/sonar-scanner"
     
   },
   "devDependencies": {
